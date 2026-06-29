@@ -1,0 +1,7 @@
+# ESP32-C6 target
+CONFIG_IDF_TARGET="esp32c6"
+CONFIG_ESP_MAIN_TASK_STACK_SIZE=6144
+CONFIG_FREERTOS_HZ=1000
+
+# Free UART0 for the bridge: no IDF console on it (flashing still works via ROM).
+CONFIG_ESP_CONSOLE_NONE=y

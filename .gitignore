@@ -1,0 +1,39 @@
+# ---- Claude / editors ----
+.claude
+.vscode
+
+# ---- Vivado generated / cache / runtime ----
+MAC-Accelerator.cache/
+MAC-Accelerator.runs/
+MAC-Accelerator.hw/
+MAC-Accelerator.sim/
+MAC-Accelerator.ip_user_files/
+MAC-Accelerator.gen/
+.Xil/
+*.jou
+*.log
+*.str
+vivado*.backup.*
+
+# ---- NEORV32 software build artifacts (sw/mac_demo) ----
+sw/**/build/
+sw/**/*.elf
+sw/**/*.bin
+sw/**/*.o
+sw/**/*.map
+sw/**/*.asm
+
+# ---- ESP-IDF (esp32c6_bridge) ----
+esp32c6_bridge/build/
+esp32c6_bridge/managed_components/
+esp32c6_bridge/sdkconfig
+esp32c6_bridge/sdkconfig.old
+esp32c6_bridge/dependencies.lock
+
+# ---- Python ----
+__pycache__/
+*.pyc
+
+# ---- clangd / IDE caches ----
+.cache/
+.clangd

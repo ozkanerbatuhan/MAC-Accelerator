@@ -1,0 +1,35 @@
+r
+
+NEORV32 Bootloader
+build: Jun 14 2026
+
+Auto-boot in 8s. Press any key to abort.
+Aborted.
+
+Type 'h' for help.
+CMD:> u
+Awaiting neorv32_exe.bin... OK
+CMD:> e
+Booting from 0x00000000...
+
+
+<<< MAC custom-instruction benchmark (Q8.8 dot-product sweep) >>>
+
+   N |   SW cyc |   HW cyc | speedup | correct
+-----+----------+----------+---------+--------
+%4u | %8u | %8u | %2u.4486x | ÿ!‡
+DATA,4,486,183
+%4u | %8u | %8u | %2u.8934x | 
+DATA,8,934,327
+%4u | %8u | %8u | %2u.161830x | † “	
+DATA,16,1830,615
+%4u | %8u | %8u | %2u.323622x | VÒVbWòWH–H&I¶IFJÖJfKöK\–\&]¶]F^Ö^f_ö_"As
+DATA,32,3622,1191
+%4u | %8u | %8u | %2u.647206x | 
+DATA,64,7206,2343
+%4u | %8u | %8u | %2u.12814374x | 
+DATA,128,14374,4647
+%4u | %8u | %8u | %2u.25628710x | 
+DATA,256,28710,9255
+
+Benchmark completed.

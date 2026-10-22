@@ -4,8 +4,8 @@
 # Adapted from the prior HFT run_synth.tcl flow (open_project + add_files).            #
 # ================================================================================== #
 
-set proj_dir    "D:/vivado projects/MAC-Accelerator"
-set neorv32_rtl "D:/vivado projects/neorv32/rtl/core"
+set proj_dir    "D:/50-fpga/mac-accelerator"
+set neorv32_rtl "D:/50-fpga/neorv32/rtl/core"
 
 open_project "$proj_dir/MAC-Accelerator.xpr"
 

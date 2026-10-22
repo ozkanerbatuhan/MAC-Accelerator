@@ -4,7 +4,7 @@
 <!-- Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.                   -->
 <!-- Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.   -->
 
-<Project Product="Vivado" Version="7" Minor="71" Path="D:/vivado projects/MAC-Accelerator/MAC-Accelerator.xpr">
+<Project Product="Vivado" Version="7" Minor="71" Path="D:/50-fpga/mac-accelerator/MAC-Accelerator.xpr">
   <DefaultLaunch Dir="$PRUNDIR"/>
   <Configuration>
     <Option Name="Id" Val="36d2efd17db44ff5aedf0caa369c233c"/>

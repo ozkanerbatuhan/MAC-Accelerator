@@ -5,7 +5,7 @@
 # Run scripts/add_sources.tcl first.                                                   #
 # ================================================================================== #
 
-set proj_dir "D:/vivado projects/MAC-Accelerator"
+set proj_dir "D:/50-fpga/mac-accelerator"
 set tb "mac_datapath_tb"
 if {$argc >= 1} { set tb [lindex $argv 0] }
 

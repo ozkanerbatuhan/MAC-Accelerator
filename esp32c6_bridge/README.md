@@ -41,7 +41,7 @@ the server terminal. The RGB LED hue should shift as bytes flow.
 At the server prompt:
 ```
 /raw u                                  # tell the bootloader to expect an upload
-/sendfile D:/vivado projects/MAC-Accelerator/sw/mac_demo/neorv32_exe.bin
+/sendfile D:/50-fpga/mac-accelerator/sw/mac_demo/neorv32_exe.bin
 /raw e                                  # execute
 ```
 (Exact bootloader key sequence per the NEORV32 docs; `u`=upload, `e`=execute.)

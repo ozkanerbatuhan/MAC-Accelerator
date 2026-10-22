@@ -113,7 +113,7 @@ esp32c6_bridge/              ESP-IDF UART bridge firmware + upload.py
 results/  benchmark_raw.txt, cycles.csv, speedup.png, plot_results.py
 ```
 
-The NEORV32 core is a **sibling clone** at `D:/vivado projects/neorv32`
+The NEORV32 core is a **sibling clone** at `D:/50-fpga/neorv32`
 (`git clone https://github.com/stnolting/neorv32`), referenced by absolute path — not
 vendored into this repo.
 

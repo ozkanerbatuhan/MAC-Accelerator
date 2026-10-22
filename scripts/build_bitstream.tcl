@@ -4,7 +4,7 @@
 # Run scripts/add_sources.tcl first. Adapted from the HFT build_bitstream.tcl flow.    #
 # ================================================================================== #
 
-set proj_dir "D:/vivado projects/MAC-Accelerator"
+set proj_dir "D:/50-fpga/mac-accelerator"
 open_project "$proj_dir/MAC-Accelerator.xpr"
 
 reset_run synth_1
